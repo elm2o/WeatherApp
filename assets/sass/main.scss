@@ -36,10 +36,10 @@ body {
 
         h2 {
             margin-block-end: 0em;
-            color: rgb(0, 0, 0);
+            color: rgb(0, 2, 90);
             padding-left: .5em;
-            padding-top: .35em;
-            padding-bottom: .35em;
+            padding-top: .5em;
+            padding-bottom: .5em;
             background-color: rgb(255, 255, 255);
             font-weight: 400;
         }
@@ -72,7 +72,7 @@ body {
 }
 
 .fa-spin {
-    color: rgb(44, 44, 44);
+    color: rgba(0, 2, 90, 0.5);
     font-size: 30px;
 }
 
@@ -122,30 +122,33 @@ body {
 
 .weather_container{
     h4 {
-        color: black;
+        color: rgb(0, 2, 90);
     }
     i {
-        color: black;
+        color: rgb(0, 2, 90);
     }
 }
 
 button {
     font-size: 15px;
     font-weight: 400;
-    border: .5px solid rgb(100, 100, 100);
+    border: .5px solid rgb(125, 177, 255);
     border-radius: 3px;
     padding-top: .15em;
-    padding-bottom: .05em;
+    padding-bottom: .1em;
     padding-left: .5em;
     padding-right: .6em;
     margin-top: .5em;
     margin-bottom: .5em;
     margin-left: .5em;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    background-color: rgba(0, 110, 255, 0.75);
+    color: rgb(255, 255, 255);
 
 }
 
+.fa-save {
+    color: rgba(0, 110, 255);
+}
 .weather {
     display: flex;
     justify-content: space-between;
@@ -155,10 +158,10 @@ button {
 
 .mapboxgl-canvas-container {
    max-height: 100%;
-   height: 610px;
+   height: 615px;
 
    .mapboxgl-canvas {
-       height: 660px;
+       height: 670px;
    }
 }
 
@@ -188,20 +191,23 @@ button {
     }
     button {
         font-size: 15px;
-        font-weight: 300;
+        font-weight: 400;
+        border: .5px solid rgb(125, 177, 255);
+        border-radius: 3px;
         padding-top: .15em;
-        padding-bottom: .05em;
+        padding-bottom: .1em;
         padding-left: .5em;
-        padding-right: .5em;
-        margin-left: 0.5em;
-        background-color: rgb(255, 255, 255);
-        color: rgb(0, 0, 0);
-        border-color: grey;
+        padding-right: .6em;
+        margin-top: .5em;
+        margin-bottom: .5em;
+        margin-left: .5em;
+        background-color: rgba(0, 110, 255, 0.75);
+        color: rgb(255, 255, 255);
     }
     .weather {
         display: flex;
         justify-content: space-between;
-        color: rgb(0, 0, 0);
+        color: rgb(0, 2, 90);
         font-weight: 300;
     }
     }
@@ -212,6 +218,7 @@ button {
 
     .fa-crosshairs {
         padding-top: 1em;
+        color: rgba(0, 110, 255);
     }
 
     .header {
@@ -229,7 +236,7 @@ button {
     }
 
     .footer {
-        color: rgb(0, 0, 0);
+        color: rgb(0, 2, 90);
         background-color: rgb(255, 255, 255);
         padding-left: .5em;
         font-size: 18px;
@@ -256,7 +263,7 @@ button {
         }
         h4 {
             margin: auto;
-            color: rgb(0, 0, 0);
+            color: rgb(0, 2, 90);
             font-weight: 400;
             font-size: 16px;
             margin-bottom: 1em;
@@ -266,7 +273,7 @@ button {
     .back_color_1 {
         padding-top: .05em;
         padding-bottom: .05em;
-        background-color: rgba(0, 0, 0, 0.1);
+        background-color: rgba(170, 170, 170, 0.1);
     }
     .back_color_2 {
         padding-top: .05em;
@@ -276,22 +283,22 @@ button {
     .back_color_3 {
         padding-top: .05em;
         padding-bottom: .05em;
-        background-color: rgba(170, 170, 170, 0.1);
+        background-color: rgba(255, 255, 255, 0.1);
     }
     .back_color_4 {
         padding-top: .05em;
         padding-bottom: .05em;
-        background-color: rgba(255, 255, 255, 0.1);
+        background-color: rgba(0, 0, 0, 0.1);
     }
     .back_color_5 {
         padding-top: .05em;
         padding-bottom: .05em;
-        background-color: rgba(0, 0, 0, 0.1);
+        background-color: rgba(255, 255, 255, 0.1);
     }
     .back_color_6 {
         padding-top: .05em;
         padding-bottom: .05em;
-        background-color: rgba(65, 65, 65, 0.1);
+        background-color: rgba(0, 0, 0, 0.1);
     }
     .back_color_7 {
         padding-top: .05em;
@@ -301,7 +308,7 @@ button {
     .back_color_8 {
         padding-top: .05em;
         padding-bottom: .05em;
-        background-color: rgba(255, 255, 255, 0.1);
+        background-color: rgba(65, 65, 65, 0.1);
     }
 
     .fetch_container {
@@ -320,9 +327,9 @@ button {
     }
 
     g {
-        fill: rgb(0, 0, 0);
+        fill: rgba(0, 110, 255);
         
         circle {
-            fill: rgb(255, 255, 255)
+            fill: rgba(255, 255, 255, 0.9)
         }
     }

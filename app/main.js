@@ -78,7 +78,7 @@ const renderMapViewFooter = () => {
 const renderMap = () => {
     map = new mapboxgl.Map({
         container: "my_map",
-        style: "mapbox://styles/elm2o/ckp29qnoc670q17mhyf04g4kh",
+        style: "mapbox://styles/elm2o/ckp46fx9g0vw917jy29bzuj3w",
         center: [-74.5, 40],
         zoom: 9,
     });

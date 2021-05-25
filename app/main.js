@@ -185,13 +185,23 @@ const renderSingleViewMain = () => {
     
     <h4><i class="fa fa-clock-o"></i>Hour</h4> <h4><i class="fa fa-sun-o"></i>Degrees</h4> <h4><i class="fas fa-wind"></i>Wind</h4> </div>
     
-    <div class="back_color_1"> <div class="fetch_container"><h5>${time}</h5><h5>${weather.main.temp} ºK</h5><h5>${weather.wind.speed} mph</h5></div> </div>
+    <div class="back_color_1"> <div class="fetch_container"><h5>${time}</h5><h5>${Math.round(((weather.main.temp) - 273.15))} ºC</h5><h5>${weather.wind.speed} mph</h5></div> </div>
 
-    <div class="back_color_2"> <div class="fetch_container"><h5>${time}</h5><h5>${weather.main.temp} ºK</h5><h5>${weather.wind.speed} mph</h5></div> </div>
+    <div class="back_color_2"> <div class="fetch_container"><h5>${time}</h5><h5>${Math.round(((weather.main.temp) - 273.15))} ºC</h5><h5>${weather.wind.speed} mph</h5></div> </div>
 
-    <div class="back_color_3"> <div class="fetch_container"><h5>${time}</h5><h5>${weather.main.temp} ºK</h5><h5>${weather.wind.speed} mph</h5></div> </div>
+    <div class="back_color_3"> <div class="fetch_container"><h5>${time}</h5><h5>${Math.round(((weather.main.temp) - 273.15))} ºC</h5><h5>${weather.wind.speed} mph</h5></div> </div>
 
-    <div class="back_color_4"> <div class="fetch_container"><h5>${time}</h5><h5>${weather.main.temp} ºK</h5><h5>${weather.wind.speed} mph</h5></div> </div>
+    <div class="back_color_4"> <div class="fetch_container"><h5>${time}</h5><h5>${Math.round(((weather.main.temp) - 273.15))} ºC</h5><h5>${weather.wind.speed} mph</h5></div> </div>
+
+    <div class="back_color_5"> <div class="fetch_container"><h5>${time}</h5><h5>${Math.round(((weather.main.temp) - 273.15))} ºC</h5><h5>${weather.wind.speed} mph</h5></div> </div>
+
+    <div class="back_color_6"> <div class="fetch_container"><h5>${time}</h5><h5>${Math.round(((weather.main.temp) - 273.15))} ºC</h5><h5>${weather.wind.speed} mph</h5></div> </div>
+
+    <div class="back_color_7"> <div class="fetch_container"><h5>${time}</h5><h5>${Math.round(((weather.main.temp) - 273.15))} ºC</h5><h5>${weather.wind.speed} mph</h5></div> </div>
+
+    <div class="back_color_8"> <div class="fetch_container"><h5>${time}</h5><h5>${Math.round(((weather.main.temp) - 273.15))} ºC</h5><h5>${weather.wind.speed} mph</h5></div> </div>
+
+    <div class="back_color_9"> <div class="fetch_container"><h5>${time}</h5><h5>${Math.round(((weather.main.temp) - 273.15))} ºC</h5><h5>${weather.wind.speed} mph</h5></div> </div>
 
     </div>`;
 }

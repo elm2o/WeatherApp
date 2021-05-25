@@ -48,7 +48,7 @@ body {
         grid-area: 2 / 1 / span 2 / span 1;
         border-top: 1px solid rgb(200, 200, 200);
         border-bottom: 1px solid rgb(200, 200, 200);
-        background: linear-gradient(rgba(168, 248, 255, 0.5), rgba(99, 188, 255, 0.7));
+        background: linear-gradient(rgba(205, 251, 255, 0.5), rgba(95, 186, 255, 0.7));
     }
     .footer {
         grid-area: 4 / 1 / span 1 / span 1;
@@ -134,7 +134,7 @@ button {
     font-weight: 400;
     border: .5px solid rgb(100, 100, 100);
     border-radius: 3px;
-    padding-top: .05em;
+    padding-top: .15em;
     padding-bottom: .05em;
     padding-left: .5em;
     padding-right: .6em;
@@ -189,7 +189,7 @@ button {
     button {
         font-size: 15px;
         font-weight: 300;
-        padding-top: .05em;
+        padding-top: .15em;
         padding-bottom: .05em;
         padding-left: .5em;
         padding-right: .5em;
@@ -279,6 +279,26 @@ button {
         background-color: rgba(170, 170, 170, 0.1);
     }
     .back_color_4 {
+        padding-top: .05em;
+        padding-bottom: .05em;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    .back_color_5 {
+        padding-top: .05em;
+        padding-bottom: .05em;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+    .back_color_6 {
+        padding-top: .05em;
+        padding-bottom: .05em;
+        background-color: rgba(65, 65, 65, 0.1);
+    }
+    .back_color_7 {
+        padding-top: .05em;
+        padding-bottom: .05em;
+        background-color: rgba(170, 170, 170, 0.1);
+    }
+    .back_color_8 {
         padding-top: .05em;
         padding-bottom: .05em;
         background-color: rgba(255, 255, 255, 0.1);

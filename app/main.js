@@ -209,7 +209,7 @@ const renderSingleViewMain = () => {
 
 const renderSingleViewFooter = () => {
     const footer = document.querySelector('.footer');
-    footer.innerHTML = '<span class="fa fa-save"></span><button>Guardar ubicación</button>';
+    footer.innerHTML = '<span class="fa fa-save"></span><button>Guardar ubicación</button> <button>Eliminar ubicación</button>';
 
     footer.addEventListener("click", () => {
         saveMarker();

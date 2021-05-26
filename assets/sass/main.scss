@@ -126,6 +126,10 @@ body {
     }
     i {
         color: rgb(0, 2, 90);
+        i.fa.fa-sun-o::before {
+            width: 100px;
+            height: 4em;
+        }
     }
 }
 

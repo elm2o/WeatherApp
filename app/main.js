@@ -183,7 +183,7 @@ const renderSingleViewMain = () => {
     const main = document.querySelector('.main');
     main.innerHTML = `<div class="weather_container"> 
     
-    <h4><i class="fa fa-clock-o" style="margin-left: 1em; font-size: 24px;"></i></h4> <h4><i class="fa fa-sun-o" style="margin-right: .8em; font-size: 24px;"></i></h4> <h4><i class="fas fa-wind" style="margin-right: 1em; font-size: 24px;"></i></h4> </div>
+    <h4><i class="fa fa-clock-o" style="margin-left: .9em; font-size: 24px;"></i></h4> <h4><i class="fa fa-sun-o" style="margin-right: .8em; font-size: 24px;"></i></h4> <h4><i class="fas fa-wind" style="margin-right: 1em; font-size: 24px;"></i></h4> </div>
     
     <div class="back_color_1"> <div class="fetch_container"><h5>${time}</h5><h5>${Math.round(((weather.main.temp) - 273.15))} ºC</h5><h5>${weather.wind.speed} mph</h5></div> </div>
 
